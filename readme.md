@@ -18,6 +18,8 @@ SELECT \* FROM `students` WHERE YEAR(`date_of_birth`) = '1994';
 5. Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del
    20/06/2020 (21)
 
+   SELECT \* FROM `exams` WHERE `date` = '2020-6-20' AND `hour` > '13:59:00';
+
 6. Selezionare tutti i corsi di laurea magistrale (38)
 
 7. Da quanti dipartimenti è composta l'università? (12)
