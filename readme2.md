@@ -4,7 +4,7 @@
 
 2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
 
-#
+# SELECT `office_number`, COUNT(\*) FROM `teachers` GROUP BY `office_number`;
 
 3. Calcolare la media dei voti di ogni appello d'esame
 
