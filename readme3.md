@@ -31,7 +31,7 @@ AND `teachers`.`id` = '44';
 SELECT \*
 FROM `students`
 INNER JOIN `degrees`
-ON `degrees`.`id` = `students`.`degrees_id`
+ON `degrees`.`id` = `students`.`degree_id`
 INNER JOIN `departments`
 ON `departments`.`id` = `degrees`.`department_id`
 WHERE `students`.`surname` = 'Cognome'
